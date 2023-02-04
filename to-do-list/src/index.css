@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.list-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+  padding-left: 10px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.list-item p {
+  margin-left: 10px;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add input {
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(78, 131, 199);
+}
+
+.add input:focus,
+input:active {
+  outline: none;
+}
+
+.add button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(91, 146, 217);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+.add button:hover {
+  background-color: rgb(51, 105, 177);
+}
